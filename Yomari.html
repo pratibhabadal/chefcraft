@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yomari</title>
+    <script>
+        function toggle()
+        {
+            var x=document.getElementById("details")
+            if(x.style.display=="none")
+        {
+            (x.style.display="block");
+        }
+        else{
+            (x.style.display="none");
+        }
+        }
+    </script>
+</head>
+<body>
+        <li><h2>Yomari</h2></li>
+        <img src="/assets/images/Yomari.jpg" alt="Yomari" width="250" height="200"onclick="toggle()">
+        <div id="details"style="display:none;">
+		<ol>
+                <li><strong>Ingredients</strong>
+                    <ul>
+                        <li>Rice flour</li>
+                    <li>Chaku (molasses)</li>
+                    <li>Sesame seeds</li>
+                    <li>Ghee</li>
+                    <li>Coconut</li>
+                </ul>
+            </li>
+                <li><strong>Recipe</strong>
+                    <ul>
+                    <li>Heat chaku with sesame until liquid.</li>
+                    <li>Make dough with rice flour and warm water.</li>
+                    <li>Shape into a cone.</li>
+                    <li>Fill chaku mixture.</li>
+                    <li>Steam for 10 minutes.</li>
+                    <li>Enjoy!</li>
+                </ul>
+                </li>
+    </ol>
+</div>
+</body>
+</html>
