@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Cuisine - Momo</title>
+    <script>
+        function toggle() 
+        {
+            var x = document.getElementById("details");
+            if (x.style.display == "none") 
+            {
+                x.style.display = "block";  
+            } 
+            else 
+            {
+                x.style.display = "none";    
+            }
+        }   
+    </script>
+</head>
+<body>
+        <li><h2>Chicken Momo</h2>
+            <img src="assets/images/Momo.jpg" alt="Momo" width="250" height="200" onclick="toggle()">
+<div id="details" style="display:none;">
+            <ol>
+                <li><strong>Ingredients</strong>
+                    <ul>
+                    <li>All-purpose Flour</li>
+                    <li>Water</li>
+                    <li>Salt</li>
+                    <li>Ground Chicken</li>
+                    <li>Onion</li>
+                    <li>Garlic</li>
+                    <li>Ginger</li>
+                    <li>Coriander</li>
+                    <li>Green Chillies</li>
+                    <li>Soy Sauce</li>
+                    </ul>
+                </li>
+                <li><strong>Recipe</strong>
+                    <ul>
+                    <li>Mix flour, water, and a pinch of salt to make a smooth dough.</li>
+                    <li>Roll the dough into thin circles to form momo wrappers.</li>
+                    <li>Prepare the filling by mixing chicken, chopped onion, garlic, ginger, coriander, green chillies, and soy sauce.</li>
+                    <li>Place a spoonful of filling in the center of each wrapper and fold to seal.</li>
+                    <li>Steam the momos for 10-15 minutes until fully cooked.</li>
+                    <li>Serve hot with spicy tomato chutney.</li>
+                    </ul>
+                    </li>
+            </ol>
+    </div>
+</body>
+</html>
