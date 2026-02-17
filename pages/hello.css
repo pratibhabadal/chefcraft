@@ -1,0 +1,14 @@
+.hero{
+background:green
+padding-box px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+
+footer{
+background:#333;
+color:#fff;
+text-align:center;
+padding:15px;
+}
