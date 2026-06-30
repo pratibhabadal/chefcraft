@@ -1,56 +1,187 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Food Website | Menu</title>
-<link rel="stylesheet" href="hello.css">
-</head>
-<body>
-<header class="navbar">
-<h1>Menu</h1>
-</header>
-<section class="grid">
-<div class="card">
-<h3>Alu Sadheko</h3>
-</div>
-<div class="card">
-<h3>Chicken Momo</h3>
-</div>
-<div class="card">
-<h3>Kheer</h3>
-</div>
-<div class="card">
-<h3>King Curd</h3>
-</div>
-<div class="card">
-<h3>Laphing</h3>
-</div>
-<div class="card">
-<h3>Mixed Chatamari</h3>
-</div>
-<div class="card">
-<h3>Nepali Alu Achhar </h3>
-</div>
-<div class="card">
-<h3>Onion Pakoda </h3>
-</div>
-<div class="card">
-<h3>Selroti</h3>
-</div>
-<div class="card">
-<h3>Syaphale </h3>
-</div>
-<div class="card">
-<h3>Thukpa</h3>
-</div>
-<div class="card">
-<h3>Yomari </h3>
-</div>
-</section>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefcraft | Menu Directory</title>
 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        .navbar {
+            background: #8b0000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+        }
+
+        .navbar h1 {
+            font-size: 28px;
+        }
+
+        .navbar nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .navbar nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #8b0000;
+            font-size: 32px;
+        }
+
+        .recipe-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .recipe-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            overflow: hidden;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-placeholder {
+            background: #e2e8f0;
+            height: 120px;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 1rem;
+        }
+
+        .recipe-card h3 {
+            margin-bottom: 20px;
+        }
+
+        .recipe-card a {
+            text-decoration: none;
+            color: #8b0000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .recipe-card a:hover {
+            color: #c0392b;
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="navbar">
+    <h1>Chefcraft</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+    </nav>
+</header>
+
+<main>
+    <h2 class="section-title">Traditional Nepalese Recipe Directory</h2>
+
+    <div class="recipe-list">
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="Yomari.html">Yomari</a></h3>
+        </div>
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="SelRoti.html">Sel Roti</a></h3>
+        </div>
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="AluSadheko.html">Alu Sadheko</a></h3>
+        </div>
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="Chicken Momo.html">Chicken Momo</a></h3>
+        </div>
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="Kheer.html">Kheer</a></h3>
+        </div>
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="Thukpa.html">Thukpa</a></h3>
+        </div>
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="Laphing.html">Laphing</a></h3>
+        </div>
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="KingCurd.html">KingCurd</a></h3>
+        </div> 
+
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="Mixed Chatamari.html">Mixed Chatamari</a></h3>
+        </div>
+        
+        <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="Syaphale.html">Syaphale</a></h3>
+        </div>
+
+         <div class="recipe-card">
+            <div class="image-placeholder"></div>
+            <h3><a href="Onion Pakoda.html">Onion Pakoda</a></h3>
+        </div>
+
+    </div>
+</main>
 
 <footer>
-<p>© 2025 FoodieHub</p>
+    <p>&copy; 2026 Chefcraft. Created for Web Technology Coursework.</p>
 </footer>
-
 
 </body>
 </html>
