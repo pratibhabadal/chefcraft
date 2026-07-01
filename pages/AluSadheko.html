@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alu Sadheko</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    margin:0;
+}
+
+header{
+    background:#8b0000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+img{
+    width:300px;
+    display:block;
+    margin:auto;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+h2{
+    color:#8b0000;
+}
+
+#details{
+    display:none;
+    margin-top:20px;
+}
+
+.button{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    background:#8b0000;
+
+    color:white;
+
+    padding:10px 20px;
+
+    text-decoration:none;
+
+    border-radius:5px;
+
+}
+
+.button:hover{
+
+    background:red;
+
+}
+
+</style>
+
+<script>
+
+function toggle(){
+
+var x=document.getElementById("details");
+
+if(x.style.display==="none"){
+
+x.style.display="block";
+
+}
+
+else{
+
+x.style.display="none";
+
+}
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Alu Sadheko Recipe</h1>
+
+</header>
+
+<div class="container">
+
+<img src="../assets/images/Alu Sadheko.jpg"
+alt="Alu Sadheko"
+onclick="toggle()">
+
+<p align="center"><b>Click the image to view the recipe.</b></p>
+
+<div id="details">
+
+<h2>Ingredients</h2>
+
+<ul>
+
+<li>Boiled potatoes</li>
+
+<li>Finely chopped onion</li>
+
+<li>Sliced green chilies</li>
+
+<li>Tomato puree</li>
+
+<li>Chopped coriander</li>
+
+<li>Turmeric powder</li>
+
+<li>Cumin powder</li>
+
+<li>Chili powder</li>
+
+<li>Fenugreek seeds</li>
+
+<li>Lemon juice</li>
+
+<li>Mustard oil</li>
+
+<li>Salt to taste</li>
+
+</ul>
+
+<h2>Recipe</h2>
+
+<ol>
+
+<li>Cut boiled potatoes into cubes.</li>
+
+<li>Mix potatoes with onion, tomato puree, chilies, cumin powder, chili powder, salt, lemon juice and coriander.</li>
+
+<li>Heat mustard oil.</li>
+
+<li>Add fenugreek seeds until brown.</li>
+
+<li>Add turmeric powder.</li>
+
+<li>Pour over the potato mixture.</li>
+
+<li>Mix well.</li>
+
+<li>Serve fresh.</li>
+
+</ol>
+
+</div>
+
+<a href="menu.html" class="button">⬅ Back to Menu</a>
+
+</div>
+
+</body>
+
+</html>

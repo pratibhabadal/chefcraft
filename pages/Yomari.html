@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yomari</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    margin:0;
+}
+
+header{
+    background:#8b0000;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+img{
+    width:300px;
+    display:block;
+    margin:auto;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+h2{
+    color:#8b0000;
+}
+
+#details{
+    display:none;
+    margin-top:20px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    background:#8b0000;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.button:hover{
+    background:red;
+}
+
+</style>
+
+<script>
+
+function toggle(){
+
+var x=document.getElementById("details");
+
+if(x.style.display==="none"){
+x.style.display="block";
+}
+else{
+x.style.display="none";
+}
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Yomari Recipe</h1>
+
+</header>
+
+<div class="container">
+
+<img src="../assets/images/Yomari.jpg"
+alt="Yomari"
+onclick="toggle()">
+
+<p align="center"><b>Click the image to view the recipe.</b></p>
+
+<div id="details">
+
+<h2>Ingredients</h2>
+
+<ul>
+
+<li>2 cups rice flour</li>
+<li>1 cup warm water</li>
+<li>Chaku (molasses)</li>
+<li>Roasted sesame seeds</li>
+<li>Ghee</li>
+
+</ul>
+
+<h2>Recipe</h2>
+
+<ol>
+
+<li>Mix rice flour with warm water to make a soft dough.</li>
+<li>Prepare the filling by mixing chaku and sesame seeds.</li>
+<li>Shape the dough into a fish-like form.</li>
+<li>Fill with the chaku mixture.</li>
+<li>Seal the dough properly.</li>
+<li>Steam for 15–20 minutes.</li>
+</ol>
+
+</div>
+
+<a href="menu.html" class="button">⬅ Back to Menu</a>
+
+</div>
+
+</body>
+
+</html>

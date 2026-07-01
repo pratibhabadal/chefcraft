@@ -54,47 +54,41 @@
             color:#8b0000;
             font-size:32px;
         }
-
         .recipe-list{
-            display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-            gap:25px;
-        }
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
 
-        .recipe-card{
-            background:white;
-            border-radius:10px;
-            box-shadow:0 2px 8px rgba(0,0,0,0.15);
-            overflow:hidden;
-            text-align:center;
-            transition:0.3s;
-        }
+.recipe-card{
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    transition:.3s;
+    text-align:center;
+}
 
-        .recipe-card:hover{
-            transform:translateY(-5px);
-        }
+.recipe-card:hover{
+    transform:translateY(-5px);
+}
 
-        .recipe-image{
-            width:100%;
-            height:220px;
-            object-fit:cover;
-            display:block;
-        }
+.recipe-card a{
+    text-decoration:none;
+    color:#8b0000;
+    display:block;
+}
 
-        .recipe-card h3{
-            padding:15px;
-        }
+.recipe-image{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
 
-        .recipe-card a{
-            text-decoration:none;
-            color:#8b0000;
-            font-size:20px;
-            font-weight:bold;
-        }
-
-        .recipe-card a:hover{
-            color:#c0392b;
-        }
+.recipe-card h3{
+    padding:15px;
+    font-size:20px;
+}
 
         footer{
             margin-top:40px;
@@ -115,78 +109,99 @@
         <a href="menu.html">Menu</a>
     </nav>
 </header>
-
 <main>
-    <h2 class="section-title">Traditional Nepalese Recipe Directory</h2>
 
-    <div class="recipe-list">
+<h2 class="section-title">Traditional Nepalese Recipe Directory</h2>
+<div class="recipe-list">
 
-        <div class="recipe-card">
-            <img src="../assets/images/Yomari.jpg" class="recipe-image" alt="Yomari">
-            <h3><a href="Yomari.html">Yomari</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="AluSadheko.html">
+<img src="../assets/images/AluSadheko.jpg" class="recipe-image">
+<h3>Alu Sadheko</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Selroti.png" class="recipe-image" alt="Sel Roti">
-            <h3><a href="SelRoti.html">Sel Roti</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="ChickenMomo.html">
+<img src="../assets/images/ChickenMomo.jpg" class="recipe-image">
+<h3>Chicken Momo</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Alu Sadheko.jpg" class="recipe-image" alt="Alu Sadheko">
-            <h3><a href="AluSadheko.html">Alu Sadheko</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="Kheer.html">
+<img src="../assets/images/Kheer.jpg" class="recipe-image">
+<h3>Kheer</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Momo.jpg" class="recipe-image" alt="Chicken Momo">
-            <h3><a href="Chicken Momo.html">Chicken Momo</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="KingCurd.html">
+<img src="../assets/images/KingCurd.jpg" class="recipe-image">
+<h3>King Curd</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Kheer.jpg" class="recipe-image" alt="Kheer">
-            <h3><a href="Kheer.html">Kheer</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="Laphing.html">
+<img src="../assets/images/Laphing.jpg" class="recipe-image">
+<h3>Laphing</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Thukpa.jpg" class="recipe-image" alt="Thukpa">
-            <h3><a href="Thukpa.html">Thukpa</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="MixedChatamari.html">
+<img src="../assets/images/MixedChatamari.jpg" class="recipe-image">
+<h3>Mixed Chatamari</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Laphing.jpg" class="recipe-image" alt="Laphing">
-            <h3><a href="Laphing.html">Laphing</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="NepaliAluAchhar.html">
+<img src="../assets/images/NepaliStyleAchhar.jpg" class="recipe-image">
+<h3>Nepali Alu Achhar</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/King Curd Juju Dhau.jpg" class="recipe-image" alt="King Curd">
-            <h3><a href="KingCurd.html">King Curd</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="OnionPakoda.html">
+<img src="../assets/images/OnionPakoda.jpg" class="recipe-image">
+<h3>Onion Pakoda</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Mixed Chatamari.jpg" class="recipe-image" alt="Mixed Chatamari">
-            <h3><a href="Mixed Chatamari.html">Mixed Chatamari</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="SelRoti.html">
+<img src="../assets/images/Selroti.png" class="recipe-image">
+<h3>Sel Roti</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Syaphale.jpg" class="recipe-image" alt="Syaphale">
-            <h3><a href="Syaphale.html">Syaphale</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="Syaphale.html">
+<img src="../assets/images/Syaphale.jpg" class="recipe-image">
+<h3>Syaphale</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Onion Pakoda.jpg" class="recipe-image" alt="Onion Pakoda">
-            <h3><a href="Onion Pakoda.html">Onion Pakoda</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="Thukpa.html">
+<img src="../assets/images/Thukpa.jpg" class="recipe-image">
+<h3>Thukpa</h3>
+</a>
+</div>
 
-        <div class="recipe-card">
-            <img src="../assets/images/Nepali Style Achhar.jpg" class="recipe-image" alt="Nepali Style Achhar">
-            <h3><a href="Nepali Alu Achhar.html">Nepali Style Achhar</a></h3>
-        </div>
+<div class="recipe-card">
+<a href="Yomari.html">
+<img src="../assets/images/Yomari.jpg" class="recipe-image">
+<h3>Yomari</h3>
+</a>
+</div>
 
-    </div>
+</div>
 </main>
-
 <footer>
     <p>&copy; 2026 Chefcraft. Created for Web Technology Coursework.</p>
 </footer>
-
 </body>
 </html>
